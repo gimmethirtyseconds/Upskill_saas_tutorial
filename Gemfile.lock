@@ -39,7 +39,12 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
+    autoprefixer-rails (10.4.16.0)
+      execjs (~> 2)
     bindex (0.8.1)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.4)
     byebug (11.1.3)
     coffee-rails (4.2.1)
@@ -101,7 +106,7 @@ GEM
     pg (0.18.4)
     puma (3.4.0)
     racc (1.7.3)
-    rack (2.2.8)
+    rack (2.2.8.1)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.0.7.2)
@@ -180,6 +185,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bootstrap-sass (= 3.3.7)
   byebug
   coffee-rails (= 4.2.1)
   jbuilder (= 2.5.0)
